@@ -28,15 +28,16 @@ class Clock extends \atk4\ui\View
 
 }
 
+$app->add(['Image','https://i.pinimg.com/originals/d3/25/76/d325763d0f71615f23e9c45a04d71083.jpg','medium']);
+$app->add(["ui"=>"hidden divider"]);
+
 $app->add(['Header',"It's already",'huge centered']);
 
 $app->add([new Clock()]);
 //$app->add(['Label','WOOOORk']);
 
-$app->add(['Image','https://i.pinimg.com/originals/d3/25/76/d325763d0f71615f23e9c45a04d71083.jpg','medium']);
-
 $app->add(['Header',"Are you happy?",'huge centered']);
-
+ 
 $app->add(['Label',"Pop a joy Karlis",'icon'=>'pills','right ribbon red big'])->link('https://www.pornhub.com');
 
 
