@@ -8,7 +8,7 @@ class Narrow extends \atk4\ui\Layout\Generic {
 $app = new \atk4\ui\App('artik292');
 $app->initLayout('Centered');
 $app->layout->template->del('Header');
-$logo = 'logo.png';
+$logo = 'https://i.pinimg.com/originals/d3/25/76/d325763d0f71615f23e9c45a04d71083.jpg';
 $app->layout->add(['Image',$logo,'small centered'],'Header');
                 //$this->layout->add(['Label','Work','red right'],'Header');
 $app->layout->add(['Header','Artik 292','size'=>'huge','aligned' => 'center',],'Header');
@@ -28,16 +28,19 @@ class Clock extends \atk4\ui\View
 
 }
 
-$app->add(['Image','https://i.pinimg.com/originals/d3/25/76/d325763d0f71615f23e9c45a04d71083.jpg','medium']);
-$app->add(["ui"=>"hidden divider"]);
-
 $app->add(['Header',"It's already",'huge centered']);
 
+//$app->add(['ui'=>'hidden divider']);
+
 $app->add([new Clock()]);
+
+//$app->add(['ui'=>'hidden divider']);
 //$app->add(['Label','WOOOORk']);
 
+$app->add(['Image','http://i2.imageban.ru/out/2018/08/10/bacc3dcf15f278265a2772bb9187d40d.png','medium']);
+
 $app->add(['Header',"Are you happy?",'huge centered']);
- 
+
 $app->add(['Label',"Pop a joy Karlis",'icon'=>'pills','right ribbon red big'])->link('https://www.pornhub.com');
 
 
