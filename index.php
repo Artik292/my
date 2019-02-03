@@ -41,7 +41,7 @@ $app->add(['Image','http://i2.imageban.ru/out/2018/08/10/bacc3dcf15f278265a2772b
 
 $app->add(['Header',"Are you happy?",'huge centered']);
 
-$app->add(['Label',"Pop a joy Karlis",'icon'=>'pills','right ribbon red big'])->link('https://www.pornhub.com');
+$app->add(['Label',"Pop a joy Karlis",'icon'=>'pills','right ribbon red big']);
 
 
 //$app->add(new Dashboard())->setModel(new Guest($app->db));
